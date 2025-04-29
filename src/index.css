@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 195 80% 50%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    
+    --accent: 266 95% 64%;
+    --accent-foreground: 0 0% 98%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+
+    --radius: 0.75rem;
+    
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-cyber-darkest text-foreground font-code;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-cyber-darkest;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cyber-blue/50 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-cyber-blue/80;
+  }
+}
+
+@layer components {
+  .cyber-card {
+    @apply bg-cyber-dark border border-cyber-blue/20 rounded-lg shadow-lg overflow-hidden hover:border-cyber-blue/50 transition-all duration-300;
+  }
+  
+  .cyber-border {
+    @apply border border-cyber-blue/30 rounded-md;
+  }
+  
+  .cyber-glow {
+    @apply shadow-[0_0_15px_rgba(30,174,219,0.3)];
+  }
+  
+  .cyber-text-glow {
+    @apply text-cyber-blue animate-glow;
+  }
+  
+  .terminal-text::before {
+    content: "> ";
+    @apply text-cyber-blue;
+  }
+  
+  .cyber-grid-bg {
+    background-size: 30px 30px;
+    @apply bg-cyber-grid;
+  }
+  
+  .matrix-effect {
+    @apply font-code text-cyber-blue/80 animate-matrix-fall absolute;
+  }
+}
