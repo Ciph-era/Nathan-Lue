@@ -10,7 +10,8 @@ import {
   Database,
   Code, 
   ExternalLink, 
-  Folder 
+  Folder,
+  Key
 } from "lucide-react";
 
 type Project = {
@@ -33,53 +34,66 @@ const icons = {
   Database: Database,
   Code: Code,
   Folder: Folder,
+  Key: Key
 };
 
 // Example project data
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "Network Intrusion Detection System",
-    description: "Developed a real-time network monitoring tool that uses machine learning to detect unusual patterns and potential security breaches.",
-    image: "/placeholder.svg",
-    icon: "Shield",
-    category: ["Security Tools", "Machine Learning"],
-    technologies: ["Python", "TensorFlow", "Wireshark", "Docker"],
+    title: "MultiAI Consensus Chat Bot",
+    description: "A Python-based command-line chatbot that sequentially queries and refines responses from multiple AI models (llama2-uncensored, llama3, gemma2) via the Ollama streaming API, featuring colorized terminal output.",
+    image: "/multi-ai-chatbot.svg",
+    icon: "Database",
+    category: ["Chatbots", "AI Tools"],
+    technologies: ["Python", "Ollama", "termcolor"],
     link: "#",
     github: "#"
   },
   {
     id: 2,
-    title: "Secure File Encryption App",
-    description: "End-to-end encrypted file sharing application with zero-knowledge architecture and multi-factor authentication.",
-    image: "/placeholder.svg",
-    icon: "Folder",
-    category: ["Encryption", "Applications"],
-    technologies: ["JavaScript", "Node.js", "AES-256", "React"],
+    title: "Diceware Password Generator",
+    description: "Created a Diceware password generator in Python to produce secure passphrases using a dictionary of words mapped to dice rolls.",
+    image: "/diceware-password-generator.svg",
+    icon: "Shield",
+    category: ["Security Tools", "Utilities"],
+    technologies: ["Python"],
     link: "#",
     github: "#"
   },
   {
     id: 3,
-    title: "Vulnerability Scanner",
-    description: "Automated vulnerability assessment tool that scans web applications and networks for common security flaws.",
-    image: "/placeholder.svg",
-    icon: "Code",
-    category: ["Security Tools", "Web Security"],
-    technologies: ["Python", "OWASP", "Docker", "PostgreSQL"],
-    link: "#"
+    title: "Key Logger",
+    description: "Developed a key logger in Python to capture keystrokes that could contain sensitive information.",
+    image: "/key-logger.svg",
+    icon: "Key",
+    category: ["Security Tools", "Monitoring"],
+    technologies: ["Python"],
+    link: "#",
+    github: "#"
   },
   {
     id: 4,
-    title: "Secure IoT Gateway",
-    description: "Developed a security layer for IoT devices that monitors and filters traffic to prevent unauthorized access.",
-    image: "/placeholder.svg",
-    icon: "Server",
-    category: ["IoT", "Network Security"],
-    technologies: ["C++", "MQTT", "Linux", "Embedded Systems"],
-    link: "#",
+    title: "Buffer Overflow Vulnerability Lab",
+    description: "Exploited a buffer overflow vulnerability to gain root access using shellcode; evaluated and bypassed system security measures, including StackGuard and address randomization.",
+    image: "/buffer-overflow-vulnerability-lab.svg",
+    icon: "Terminal",
+    category: ["Security Tools", "Vulnerability Research"],
+    technologies: ["C", "Assembly", "Shellcode"],
+    link: "https://seedsecuritylabs.org/Labs_20.04/Software/Race_Condition/",
     github: "#"
-  }
+  },
+  {
+    id: 5,
+    title: "Race Condition Vulnerability Lab",
+    description: "Exploited a race condition in a program to escalate privileges by manipulating file access timing.",
+    image: "/race-condition-vulnerability-lab.svg",
+    icon: "Terminal",
+    category: ["Security Tools", "Vulnerability Research"],
+    technologies: ["C", "Exploit Development", "Linux"],
+    link: "https://seedsecuritylabs.org/Labs_20.04/Software/Race_Condition/",
+    github: "#"
+  },
 ];
 
 const Projects = () => {

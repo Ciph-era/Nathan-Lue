@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center">
           <div className="flex items-center space-x-2 text-xl font-bold mb-6">
-            <Shield className="h-6 w-6 text-cyber-blue" />
-            <span className="cyber-text-glow">SecurePortfolio</span>
+            {/* <Shield className="h-6 w-6 text-cyber-blue" /> */}
+            <span className="cyber-text-glow">Nathan Luevano</span>
           </div>
           
           <div className="mb-8 flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm text-foreground/60">
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           
           <div className="text-center text-foreground/60 text-sm">
-            <p>© {currentYear} Your Name | Cybersecurity Engineer</p>
+            <p>© {currentYear} Nathan Luevano | Cybersecurity Engineer</p>
           </div>
         </div>
       </div>

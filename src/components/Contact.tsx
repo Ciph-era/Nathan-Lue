@@ -74,7 +74,7 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Your name"
+                    placeholder="Nathan Luevano"
                     required
                     className="bg-cyber-dark border-cyber-blue/20 focus:border-cyber-blue focus:ring-1 focus:ring-cyber-blue"
                   />
@@ -164,15 +164,15 @@ const Contact = () => {
           <div className="mt-12 text-center">
             <p className="text-cyber-blue mb-2">Other ways to reach me:</p>
             <div className="flex justify-center space-x-6">
-              <a href="mailto:your.email@example.com" className="text-foreground/70 hover:text-cyber-blue transition-colors">
-                your.email@example.com
+              <a href="mailto:nathan.e.luevano@gmail.com" className="text-foreground/70 hover:text-cyber-blue transition-colors">
+                nathan.e.luevano@gmail.com
               </a>
               <span className="text-foreground/30">|</span>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-cyber-blue transition-colors">
+              <a href="https://www.linkedin.com/in/nathan-luevano-a39226279/" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-cyber-blue transition-colors">
                 LinkedIn
               </a>
               <span className="text-foreground/30">|</span>
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-cyber-blue transition-colors">
+              <a href="https://github.com/Nathan-Luevano" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-cyber-blue transition-colors">
                 GitHub
               </a>
             </div>

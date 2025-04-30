@@ -63,7 +63,7 @@ const Hero = () => {
                 <Shield className="h-5 w-5 text-cyber-blue" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Security Focused</h3>
-              <p className="text-sm text-foreground/70">Expertise in vulnerability assessment, penetration testing, and secure coding practices.</p>
+              <p className="text-sm text-foreground/70">Expertise in Cloud Security fundamentals and secure infrastructure management, including hands-on experience with VMware, Docker, Kali Linux, Wireshark, firewalls, VPNs, and Identity & Access Management (IAM). </p>
             </div>
             
             <div className="cyber-card p-4">
@@ -71,7 +71,7 @@ const Hero = () => {
                 <Code className="h-5 w-5 text-cyber-blue" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Technical Skills</h3>
-              <p className="text-sm text-foreground/70">Proficient in Python, C++, network protocols, and security frameworks.</p>
+              <p className="text-sm text-foreground/70">Proficient in Python programming, SQL database querying, Linux/CLI/SSH administration, as well as front-end web development (HTML, JavaScript, CSS) and core networking concepts. </p>
             </div>
             
             <div className="cyber-card p-4">
@@ -79,7 +79,7 @@ const Hero = () => {
                 <Terminal className="h-5 w-5 text-cyber-blue" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Problem Solver</h3>
-              <p className="text-sm text-foreground/70">Experience in threat modeling, incident response, and security architecture.</p>
+              <p className="text-sm text-foreground/70"> Goal-oriented and highly adaptable, with proven teamwork, clear communication, strong analytical thinking, creative problem-solving abilities, and effective time management. ​</p>
             </div>
           </div>
         </div>

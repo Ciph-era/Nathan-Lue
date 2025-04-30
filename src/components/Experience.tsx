@@ -6,7 +6,11 @@ import {
   Terminal,
   Server,
   Database,
-  Shield
+  Shield,
+  Bug,
+  Bot,
+  Code,
+  Book
 } from "lucide-react";
 
 type Experience = {
@@ -26,55 +30,67 @@ const icons = {
   Server: Server,
   Database: Database,
   Shield: Shield,
+  Bug: Bug,
+  Bot: Bot,
+  Code: Code,
+  Book: Book
 };
 
-// Example experience data
 const experienceData: Experience[] = [
   {
     id: 1,
-    title: "Security Operations Intern",
-    company: "TechDefend Solutions",
-    location: "Remote",
-    startDate: "Jun 2023",
-    endDate: "Present",
+    title: "PatriotCTF 2024",
+    company: "PatriotCTF",
+    location: "Online",
+    startDate: "Sep 2024",
+    endDate: "Sep 2024",
     description: [
-      "Monitored security alerts and conducted initial triage of security incidents",
-      "Assisted in vulnerability scanning and analysis using industry-standard tools",
-      "Developed automation scripts to streamline security monitoring workflows",
-      "Contributed to threat intelligence analysis and reporting"
+      "Analyzed network traffic with Wireshark to uncover hidden data",
+      "Examined Windows Event Viewer logs for security insights",
+      "Used Steghide to extract hidden data from images"
     ],
-    icon: "Shield"
+    icon: "Bug"
   },
   {
     id: 2,
-    title: "IT Security Assistant",
-    company: "University IT Department",
-    location: "On-campus",
-    startDate: "Sep 2022",
-    endDate: "May 2023",
+    title: "Hardware Hackathon GMU",
+    company: "George Mason University",
+    location: "Fairfax, VA",
+    startDate: "Sep 2024",
+    endDate: "Sep 2024",
     description: [
-      "Assisted in implementing and maintaining security controls across university systems",
-      "Conducted security awareness training for staff and students",
-      "Participated in security audits and helped address identified vulnerabilities",
-      "Supported incident response procedures for common security issues"
+      "Designed and built \"CareCart,\" an autonomous line-following robot for hospitals leveraging Arduino microcontrollers and C programming",
+      "Assisted nurses by delivering medication and supplies, reducing repetitive tasks and improving patient care"
     ],
-    icon: "Terminal"
+    icon: "Bot"
   },
   {
     id: 3,
-    title: "Network Security Volunteer",
-    company: "CyberSafe Community Project",
-    location: "Virtual",
-    startDate: "Jan 2022",
-    endDate: "Aug 2022",
+    title: "Crimson Pheonix SPY Program",
+    company: "Crimson Pheonix SPY Program",
+    location: "Herndon, VA",
+    startDate: "Apr 2024",
+    endDate: "Aug 2024",
     description: [
-      "Provided technical support for implementing secure network configurations",
-      "Developed educational materials on network security best practices",
-      "Assisted in organizing security awareness workshops for community members",
-      "Contributed to open-source security tools and documentation"
+      "Enhanced web development skills in HTML, CSS, Java, and jQuery",
+      "Created dynamic and responsive websites"
     ],
-    icon: "Server"
+    icon: "Code"
+  },
+  {
+    id: 4,
+    title: "Mathematics Tutor",
+    company: "George Mason University",
+    location: "Fairfax, VA",
+    startDate: "Aug 2024",
+    endDate: "Present",
+    description: [
+      "Collaborated with college students of varying skill levels to assure academic success",
+      "Simplified complex mathematical concepts to enhance student understanding"
+    ],
+    icon: "Book"
   }
+  
 ];
 
 const Experience = () => {
@@ -148,7 +164,7 @@ const Experience = () => {
         
         <div className="text-center mt-12">
           <p className="text-foreground/70 italic">
-            Currently seeking internships and entry-level opportunities in cybersecurity.
+            {/* Currently seeking internships and entry-level opportunities in cybersecurity. */}
           </p>
         </div>
       </div>

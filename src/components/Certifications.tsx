@@ -15,56 +15,23 @@ type Certification = {
   logo?: string;
 };
 
-// Example certifications data
 const certificationsData: Certification[] = [
   {
     id: 1,
-    name: "Certified Ethical Hacker (CEH)",
-    organization: "EC-Council",
-    date: "Jan 2023",
-    expiresAt: "Jan 2026",
-    credentialId: "CEHECEUQ78903",
-    category: "Offensive Security"
+    name: "CompTIA Security+",
+    organization: "CompTIA",
+    date: "July 3 2024",
+    expiresAt: "July 3 2027",
+    credentialId: "COMP001022327998",
+    category: "General Security"
   },
   {
     id: 2,
-    name: "CompTIA Security+",
-    organization: "CompTIA",
-    date: "Mar 2022",
-    expiresAt: "Mar 2025",
-    credentialId: "COMP12345678",
-    category: "General Security"
-  },
-  {
-    id: 3,
-    name: "AWS Certified Security - Specialty",
-    organization: "Amazon Web Services",
-    date: "Jul 2023",
-    credentialId: "AWS1234567890",
-    category: "Cloud Security"
-  },
-  {
-    id: 4,
-    name: "Certified Information Systems Security Professional (CISSP) - Associate",
-    organization: "(ISC)²",
-    date: "Dec 2023",
-    category: "General Security"
-  },
-  {
-    id: 5,
-    name: "Introduction to Cybersecurity",
-    organization: "Cisco Networking Academy",
-    date: "Sep 2021",
-    credentialId: "CSC12345678",
-    category: "General Security"
-  },
-  {
-    id: 6,
     name: "Certified Cloud Security Knowledge (CCSK)",
     organization: "Cloud Security Alliance",
-    date: "Aug 2023",
-    credentialId: "CCSK98765432",
-    category: "Cloud Security"
+    date: "July 31 2023",
+    credentialId: "R6AY7KUB653Y",
+    category: "General Security"
   },
 ];
 

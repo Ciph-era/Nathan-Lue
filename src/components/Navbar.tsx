@@ -38,8 +38,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <a href="#home" className="flex items-center space-x-2 text-xl font-bold">
-          <Shield className="h-6 w-6 text-cyber-blue" />
-          <span className="cyber-text-glow">SecurePortfolio</span>
+          {/* <Shield className="h-6 w-6 text-cyber-blue" /> */}
+          <span className="cyber-text-glow">Nathan Luevano</span>
         </a>
         
         {/* Desktop Navigation */}
@@ -53,7 +53,7 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Button variant="outline" className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue/10">
+          <Button variant="outline" className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue/10" onClick={() => window.open("/Nathan Luevano.pdf", "_blank")}>
             Resume
           </Button>
         </div>
