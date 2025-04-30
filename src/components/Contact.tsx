@@ -74,7 +74,7 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Nathan Luevano"
+                    placeholder="Your Name"
                     required
                     className="bg-cyber-dark border-cyber-blue/20 focus:border-cyber-blue focus:ring-1 focus:ring-cyber-blue"
                   />
@@ -174,6 +174,10 @@ const Contact = () => {
               <span className="text-foreground/30">|</span>
               <a href="https://github.com/Nathan-Luevano" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-cyber-blue transition-colors">
                 GitHub
+              </a>
+              <span className="text-foreground/30">|</span>
+              <a href="https://devpost.com/nathan-e-luevano?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-cyber-blue transition-colors">
+                DEVPOST
               </a>
             </div>
           </div>

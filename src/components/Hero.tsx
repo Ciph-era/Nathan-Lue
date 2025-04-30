@@ -48,13 +48,13 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-cyber-blue hover:bg-cyber-blue/90 text-white">
+            <Button className="bg-cyber-blue hover:bg-cyber-blue/90 text-white" onClick={() => window.open("#projects", "_self")}>
               View My Projects
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue/10">
+            {/* <Button variant="outline" className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue/10">
               Download CV
-            </Button>
+            </Button> */}
           </div>
           
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6">

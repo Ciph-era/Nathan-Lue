@@ -39,6 +39,22 @@ const icons = {
 const experienceData: Experience[] = [
   {
     id: 1,
+    title: "SpeedHacks Hackathon",
+    company: "SpeedHacks Hackathon",
+    location: "Fairfax, VA",
+    startDate: "Apr 2025",
+    endDate: "Apr 2025",
+    description: [
+      "Built Pluddy, an Arduino pet reacting to temperature, humidity, and light.",
+      "Streamed sensor data over serial as JSON to a web frontend.",
+      "Displayed moods via LEDs and a web interface.",
+      "Resolved JSON-over-serial issues and removed the OLED display.",
+      "Won 1st place at SpeedHacks April 2025."
+    ],
+    icon: "Bot"
+  },  
+  {
+    id: 2,
     title: "PatriotCTF 2024",
     company: "PatriotCTF",
     location: "Online",
@@ -52,7 +68,7 @@ const experienceData: Experience[] = [
     icon: "Bug"
   },
   {
-    id: 2,
+    id: 3,
     title: "Hardware Hackathon GMU",
     company: "George Mason University",
     location: "Fairfax, VA",
@@ -65,7 +81,7 @@ const experienceData: Experience[] = [
     icon: "Bot"
   },
   {
-    id: 3,
+    id: 4,
     title: "Crimson Pheonix SPY Program",
     company: "Crimson Pheonix SPY Program",
     location: "Herndon, VA",
@@ -78,7 +94,7 @@ const experienceData: Experience[] = [
     icon: "Code"
   },
   {
-    id: 4,
+    id: 5,
     title: "Mathematics Tutor",
     company: "George Mason University",
     location: "Fairfax, VA",
