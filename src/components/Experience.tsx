@@ -33,14 +33,33 @@ const icons = {
   Bug: Bug,
   Bot: Bot,
   Code: Code,
-  Book: Book
+  Book: Book,
+  Cloud: Server
 };
 
 const experienceData: Experience[] = [
   {
+    id: 0,
+    title: "Enterprise Architect Systems Intern",
+    company: "Federal Reserve Band Of Richmond",
+    location: "Richmond, VA",
+    startDate: "May 2025",
+    endDate: "Aug 2025",
+    description: [
+      "Implemented secure CI/CD pipelines using AWS CodePipeline and CodeBuild with security best practices",
+      "Architected serverless applications using AWS Lambda, API Gateway and DynamoDB with encryption at rest",
+      "Deployed infrastructure as code using AWS CloudFormation with security groups and IAM roles",
+      "Conducted security assessments of AWS environments using AWS Security Hub and GuardDuty",
+      "Implemented logging and monitoring using CloudWatch with automated alerting for security events",
+      "Secured S3 buckets and EC2 instances following AWS security best practices and compliance requirements",
+      "Created proof of concepts for secure microservices architectures using ECS and EKS"
+    ],
+    icon: "Cloud"
+  },
+  {
     id: 1,
-    title: "SpeedHacks Hackathon",
-    company: "SpeedHacks Hackathon",
+    title: "SpeedHacks Hackathon (Winner)",
+    company: "HackOverflow",
     location: "Fairfax, VA",
     startDate: "Apr 2025",
     endDate: "Apr 2025",
@@ -86,7 +105,7 @@ const experienceData: Experience[] = [
     company: "Crimson Pheonix SPY Program",
     location: "Herndon, VA",
     startDate: "Apr 2024",
-    endDate: "Aug 2024",
+    endDate: "Sep 2024",
     description: [
       "Enhanced web development skills in HTML, CSS, Java, and jQuery",
       "Created dynamic and responsive websites"

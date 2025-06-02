@@ -28,7 +28,6 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       toast.success("Message sent successfully! I'll get back to you soon.");
